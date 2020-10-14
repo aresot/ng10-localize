@@ -1,0 +1,51 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align: center">
+  <h1 i18n>Welcome to {{ title }}!</h1>
+  <h1 i18n>This is demo</h1>
+</div>
+<div i18n>
+  This is translation with <span>HTML</span> <strong>tags</strong>
+  <a href="http://www.google.com">inside</a>
+</div>
+<h2 i18n>Here are some links to <span>this</span> help you start:</h2>
+<h3 i18n>
+  {guests, plural, =0 {No guests} =1 {Single guest} other {{{guests}} lalala}}
+</h3>
+<h3 i18n>
+  {gender, select, male {He went home} female {She went home} other {They went
+  home}}
+</h3>
+<!-- <h3>
+  {time, select, morning {Good morning} afternoon {Good afternoon} evening {Good
+  evening} night {Good night}}
+</h3> -->
+<h3 i18n>
+  {hours | tod, select, morning {Good morning} afternoon {Good afternoon}
+  evening {Good evening} night {Good night}}
+</h3>
+
+<ul>
+  <li>
+    <h2>
+      <a target="_blank" rel="noopener" href="https://angular.io/tutorial">{{
+        label1
+      }}</a>
+    </h2>
+  </li>
+  <li>
+    <h2>
+      <a target="_blank" rel="noopener" href="https://angular.io/cli"
+        >CLI Documentation</a
+      >
+    </h2>
+  </li>
+  <li>
+    <h2>
+      <a target="_blank" rel="noopener" href="https://blog.angular.io/"
+        >Angular blog</a
+      >
+    </h2>
+  </li>
+</ul>
+
+<router-outlet></router-outlet>

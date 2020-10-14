@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="zh">
+  <file>
+    <unit id="9169252125508909250">
+      <segment>
+        <source>Tour of Heroes</source>
+        <target>Le tour le hero</target>
+      </segment>
+    </unit>
+    <unit id="2307192020483989977">
+      <segment>
+        <source>Welcome to <ph id="0" equiv="INTERPOLATION"/>!</source>
+        <target>Babababa to <ph id="0" equiv="INTERPOLATION"/>!</target>
+      </segment>
+    </unit>
+    <unit id="8620460520150277554">
+      <segment>
+        <source>Here are some links to help you start:</source>
+        <target>Lalalalala:</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>

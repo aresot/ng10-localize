@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="9169252125508909250" datatype="html">
+        <source>Tour of Heroes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <target>Tôúř ôƒ Hèřôèƨ</target>
+      </trans-unit>
+      <trans-unit id="de0dac7188ab04270cfc534db751465ca525b05e" datatype="html">
+        <source>
+          Welcome to !
+          <x id="INTERPOLATION" equiv-text="{{ title }}"/>
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <target>
+          Wèℓçô₥è ƭô !
+          <x id="INTERPOLATION" equiv-text="{{ title }}"/>
+        </target>
+      </trans-unit>
+      <trans-unit id="c37ed5be5e3bea5b66866cf2931599965b18cd72" datatype="html">
+        <source>This is demo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <target>Tλïƨ ïƨ δè₥ô</target>
+      </trans-unit>
+      <trans-unit id="437bc92e3ff7cc194530253b3c2dc3339fc6f699" datatype="html">
+        <source>
+           This is translation with HTMLtagsinside
+          <x id="START_TAG_SPAN" equiv-text="&lt;span>"/>
+          <x id="CLOSE_TAG_SPAN" equiv-text="&lt;/span> &lt;strong>"/>
+          <x id="START_TAG_STRONG" equiv-text="&lt;strong>"/>
+          <x id="CLOSE_TAG_STRONG" equiv-text="&lt;/strong>&#xA;  &lt;a href=&quot;http://www.google.com&quot;>"/>
+          <x id="START_LINK" equiv-text="&lt;a href=&quot;http://www.google.com&quot;>"/>
+          <x id="CLOSE_LINK" equiv-text="&lt;/a>"/>
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+        <target>
+           Tλïƨ ïƨ ƭřáñƨℓáƭïôñ ωïƭλ HTM£ƭáρƨïñƨïδè
+          <x id="START_TAG_SPAN" equiv-text="&lt;span>"/>
+          <x id="CLOSE_TAG_SPAN" equiv-text="&lt;/span> &lt;strong>"/>
+          <x id="START_TAG_STRONG" equiv-text="&lt;strong>"/>
+          <x id="CLOSE_TAG_STRONG" equiv-text="&lt;/strong>&#xA;  &lt;a href=&quot;http://www.google.com&quot;>"/>
+          <x id="START_LINK" equiv-text="&lt;a href=&quot;http://www.google.com&quot;>"/>
+          <x id="CLOSE_LINK" equiv-text="&lt;/a>"/>
+        </target>
+      </trans-unit>
+      <trans-unit id="d13483b6c95ecd115536b6227f59a41089bb63ff" datatype="html">
+        <source>
+          Here are some links to this help you start:
+          <x id="START_TAG_SPAN" equiv-text="&lt;span>"/>
+          <x id="CLOSE_TAG_SPAN" equiv-text="&lt;/span> "/>
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <target>
+          Hèřè ářè ƨô₥è ℓïñƙƨ ƭô ƭλïƨ λèℓƥ ¥ôú ƨƭářƭ:
+          <x id="START_TAG_SPAN" equiv-text="&lt;span>"/>
+          <x id="CLOSE_TAG_SPAN" equiv-text="&lt;/span> "/>
+        </target>
+      </trans-unit>
+      <trans-unit id="d6cec643d19c2a2a8370673d27681775093e0322" datatype="html">
+        <source>
+          {VAR_PLURAL, plural, =0 {No guests} =1 {Single guest} other { lalala}}
+          <x id="INTERPOLATION"/>
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <target>
+          {VAR_PLURAL, plural, =0 {Nô ρúèƨƭƨ} =1 {§ïñρℓè ρúèƨƭ} other { ℓáℓáℓá}}
+          <x id="INTERPOLATION"/>
+        </target>
+      </trans-unit>
+      <trans-unit id="2fd577c4e560e03e74bb6cb79ca8f58ed253bcd2" datatype="html">
+        <source>
+          <x id="ICU" equiv-text="{guests, plural, =0 {No guests} =1 {Single guest} other {{{guests}} lalala}}&#xA;"/>
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+        <target>
+          <x id="ICU" equiv-text="{guests, plural, =0 {No guests} =1 {Single guest} other {{{guests}} lalala}}&#xA;"/>
+        </target>
+      </trans-unit>
+      <trans-unit id="a2a6bfdb8166a1170162fd1a6e2ae1e35eff6eda" datatype="html">
+        <source>{VAR_SELECT, select, male {He went home} female {She went home} other {They went
+  home}}</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+        <target>{VAR_SELECT, select, male {Hè ωèñƭ λô₥è} female {§λè ωèñƭ λô₥è} other {Tλè¥ ωèñƭ
+  λô₥è}}</target>
+      </trans-unit>
+      <trans-unit id="13f7ffa176af9523d2e9a43e2eeb779dcaf11c76" datatype="html">
+        <source>
+          <x id="ICU" equiv-text="{gender, select, male {He went home} female {She went home} other {They went&#xA;  home}}&#xA;"/>
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">15,17</context>
+        </context-group>
+        <target>
+          <x id="ICU" equiv-text="{gender, select, male {He went home} female {She went home} other {They went&#xA;  home}}&#xA;"/>
+        </target>
+      </trans-unit>
+      <trans-unit id="82c2d3e7da3019ef30dc7b2a8e71aff8b88ceffa" datatype="html">
+        <source>{VAR_SELECT, select, morning {Good morning} afternoon {Good afternoon} evening {Good evening} night {Good night}}</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+        <target>{VAR_SELECT, select, morning {Gôôδ ₥ôřñïñρ} afternoon {Gôôδ áƒƭèřñôôñ} evening {Gôôδ èƲèñïñρ} night {Gôôδ ñïρλƭ}}</target>
+      </trans-unit>
+      <trans-unit id="9dabf7e77019721e2dc6f5b82f629908c4fb8474" datatype="html">
+        <source>
+          <x id="ICU" equiv-text="{hours | tod, select, morning {Good morning} afternoon {Good afternoon}&#xA;  evening {Good evening} night {Good night}}&#xA;"/>
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">23,25</context>
+        </context-group>
+        <target>
+          <x id="ICU" equiv-text="{hours | tod, select, morning {Good morning} afternoon {Good afternoon}&#xA;  evening {Good evening} night {Good night}}&#xA;"/>
+        </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
